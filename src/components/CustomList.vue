@@ -8,7 +8,7 @@
           class="form-control"
           name="esquerda"
           id="esquerda"
-          v-model="modelo.esquerda"
+          v-model="modelo.direita"
         >
           <option
             v-for="(esq, index) in esquerda"
@@ -44,7 +44,7 @@
           class="form-control"
           name="direita"
           id="direita"
-          v-model="modelo.direita"
+          v-model="modelo.esquerda"
         >
           <option
             v-for="(dir, index) in direita"
