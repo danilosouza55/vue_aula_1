@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <h3>Clique no botão a baixo</h3>
-      <ButtonAlert />
+      <ButtonAlert btnTitle="Nome do botão" message="Web dev" />
     </div>
   </div>
 </template>

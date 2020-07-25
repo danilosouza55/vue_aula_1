@@ -1,7 +1,7 @@
 <template>
   <div>
     <button type="button" class="btn btn-danger" v-on:click="clickAlert()">
-      Alerta
+      {{ btnTitle }}
     </button>
   </div>
 </template>
@@ -11,8 +11,10 @@ export default {
   name: "ButtonAlert",
   methods: {
     clickAlert() {
-      alert("oi Imundo!!!");
+      const msg = this.message;
+      alert(msg);
     },
   },
+  props: ["btnTitle", "message"],
 };
 </script>
